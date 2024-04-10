@@ -6,5 +6,7 @@ public class A03ScannerInput {
         int a = sc.nextInt();
         System.out.println(a);
 
+        sc.close();
+
     }
 }
