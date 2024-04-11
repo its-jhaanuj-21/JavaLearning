@@ -1,13 +1,10 @@
 import java.io.BufferedReader;
 import java.io.FileReader;
-import java.io.InputStreamReader;
 import java.io.IOException;
 
-public class A04_2BufferedReaderQues2 {
-    public static void main(String[] args) throws Exception{
+public class A0402BufferedReaderQues2 {
+    public static void main(String[] args) throws IOException{
         String fileName = "Text.txt";
-
-        // BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         BufferedReader fileBuffer = new BufferedReader(new FileReader("Text.txt"));
 
@@ -32,6 +29,9 @@ public class A04_2BufferedReaderQues2 {
         
         System.out.println("No of character: "+charCount);
         System.out.println("No of words: "+wordCount);
+
+        fileBuffer.close();
+
 
 
         
