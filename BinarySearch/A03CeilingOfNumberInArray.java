@@ -7,7 +7,7 @@ public class A03CeilingOfNumberInArray {
 
     // Ceilling of number is : smaller number >= target.
     // {1,3,5,7,9,11,13,15,17,19} -> in this after 6 : 7 is least greatest element
-
+    
     static int ceilling(int arr[], int target){
 
         // if the target is greater then greatest element in array
