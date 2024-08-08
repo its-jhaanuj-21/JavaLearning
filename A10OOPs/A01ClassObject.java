@@ -25,7 +25,11 @@ public class A01ClassObject {
         System.out.println(replicaAnuj.marks);
 
         System.out.println();
-       
+
+        Student Anuja = new Student("Anuja", 45, 99.99f);
+        Student Annu = Anuja;
+        Annu.name = "Annu";
+        System.out.println(Anuja.name);
         
     }
 }
